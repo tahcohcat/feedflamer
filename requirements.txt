@@ -1,0 +1,6 @@
+openai>=1.0.0
+requests>=2.31.0
+gTTS>=2.4.0
+pygame>=2.5.0
+pathlib
+python-dotenv>=1.0.0
