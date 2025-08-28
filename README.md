@@ -68,13 +68,6 @@ Your generated critique podcast will include:
    OPENAI_API_KEY=your-openai-api-key-here
    TWITTER_BEARER_TOKEN=your-twitter-bearer-token-here
    ```
-   
-$headers = @{
-  "Authorization" = "Bearer AAAAAAAAAAAAAAAAAAAAABfs9gAAAAAACHWGgVxHNtnUmpqUMi%2Bh2gbF74E%3D9GOvXQ8VSgrRkmJakMMZkselutTfIpYj6oxFjb2siKwb8IZuWs"
-}
-
-Invoke-WebRequest -Uri "https://api.twitter.com/2/users/by/username/williek" -Headers $headers
-
 
 ### Getting Twitter API Access
 
